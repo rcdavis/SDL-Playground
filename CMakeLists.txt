@@ -7,6 +7,7 @@ find_package(SDL3_image REQUIRED CONFIG)
 
 add_executable(SDLPlayground
     src/main.cpp
+    src/Application.cpp
 )
 
 file(COPY ${CMAKE_SOURCE_DIR}/assets
